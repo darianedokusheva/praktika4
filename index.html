@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Практическая №4. Недокушева и Васильева</title>
+    <link rel="stylesheet" href="pr4.css">
+</head>
+<body>
+    <h1>Открытка</h1>
+
+    <div class="card light" id="card">
+        <input type="text" id="text" placeholder="Текст открытки">
+        <input type="text" id="from" placeholder="От кого">
+        <input type="text" id="to" placeholder="Кому">
+    </div>
+
+    <div class="controls">
+        <button id="sendBtn" disabled>Отправить</button>
+        <select id="theme">
+            <option value="light">Светлая</option>
+            <option value="dark">Тёмная</option>
+            <option value="newyear">Новый год</option>
+            <option value="spring">Весна</option>
+            <option value="sunset">Закат</option>
+            <option value="sea">Море</option>
+        </select>
+    </div>
+
+    <h2>История открыток</h2>
+    <div id="history"></div>
+
+    <script src="pr4.js"></script>
+</body>
+</html>
